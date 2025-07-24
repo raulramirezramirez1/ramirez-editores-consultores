@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramirez Editores Consultores</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="main-header">
+    <div class="logo"> <img src="ruta/a/tu/logo.png" alt="Ramirez Logo" height="50"> </div>
+    <nav>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#marca">Acerca de</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a href="#cita" class="btn-reservar">Reservar</a>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Servicios Especializados en Asesoramiento Profesional</h1>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="servicios">
+    <h2>Nuestros servicios</h2>
+    <div class="servicios-lista">
+      <div class="servicio">
+        <img src="ruta/a/tu/servicio1.png" alt="Servicio básico">
+        <h3>Servicio básico</h3>
+        <p class="precio">USD 99.00</p>
+        <p>Describe los detalles importantes, tales como el precio, el valor, la duración del servicio y por qué es exclusivo. También puedes usar estas secciones para mostrar distintos valores clave de tus productos o servicios.</p>
+      </div>
+      <div class="servicio">
+        <img src="ruta/a/tu/servicio2.png" alt="Servicio intermedio">
+        <h3>Servicio intermedio</h3>
+        <p class="precio">USD 149.00</p>
+        <p>Describe los detalles importantes, tales como el precio, el valor, la duración del servicio y por qué es exclusivo. También puedes usar estas secciones para mostrar distintos valores clave de tus productos o servicios.</p>
+      </div>
+      <div class="servicio">
+        <img src="ruta/a/tu/servicio3.png" alt="Servicio avanzado">
+        <h3>Servicio avanzado</h3>
+        <p class="precio">USD 199.00</p>
+        <p>Describe los detalles importantes, tales como el precio, el valor, la duración del servicio y por qué es exclusivo. También puedes usar estas secciones para mostrar distintos valores clave de tus productos o servicios.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVA DE CITA -->
+  <section id="cita" class="cita">
+    <div class="cita-info">
+      <h2>Pide una cita</h2>
+      <p>Nuestro equipo de expertos está listo para brindar asesoramiento personalizado. Programe su cita hoy y dé el primer paso hacia el éxito y el crecimiento de su negocio.</p>
+    </div>
+    <div class="cita-form">
+      <ul>
+        <li>
+          <span>Servicio básico<br><small>1 hora por USD 59.90</small></span>
+          <button>Reservar</button>
+        </li>
+        <li>
+          <span>Servicio avanzado<br><small>2 horas por USD 99.90</small></span>
+          <button>Reservar</button>
+        </li>
+        <li>
+          <span>Servicio personalizado<br><small>Precio pactado con cliente</small></span>
+          <button>Reservar</button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- MÁS SOBRE NUESTRA MARCA -->
+  <section id="marca" class="marca">
+    <div class="marca-img">
+      <img src="ruta/a/tu/marca.png" alt="Marca">
+    </div>
+    <div class="marca-info">
+      <h2>Más sobre nuestra marca</h2>
+      <p>En nuestra firma, ofrecemos servicios de asesoramiento personalizados, respaldados por años de experiencia y un compromiso inquebrantable con la excelencia. Nuestro equipo de expertos está dedicado a proporcionar soluciones estratégicas adaptadas a las necesidades únicas de cada cliente.</p>
+      <a href="#" class="btn-marca">Leer más</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <div class="contacto-info">
+      <h2>Contáctanos</h2>
+      <p>¿Quieres que trabajemos juntos? Ingresa tus datos y nos pondremos en contacto contigo en breve. Esperamos tener noticias tuyas pronto.</p>
+    </div>
+    <form class="contacto-form">
+      <div class="form-row">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div>
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido" required>
+        </div>
+      </div>
+      <div>
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" required>
+      </div>
+      <div>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div>
+      <h3>Título de tu sitio</h3>
+      <p>Hecho con <a href="#">Squarespace</a></p>
+    </div>
+    <div>
+      <h4>Ubicación</h4>
+      <p>Calle de ejemplo, 123<br>Nueva York, NY 12345</p>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <p>correo@ejemplo.com<br>(555) 555-5555</p>
+    </div>
+  </footer>
+</body>
+</html>
